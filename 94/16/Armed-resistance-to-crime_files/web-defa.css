@@ -1,0 +1,734 @@
+/*
+  General settings
+*/
+
+  body
+  { 
+    color: black; 
+    background-color: white;
+    font-family: Tahoma, Verdana, Arial, Helvetica, Serif, Sans-Serif;
+    font-size: 12px;
+/*    margin: 2px;*/
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border: none;
+    border-collapse: collapse;
+  }
+
+  a { text-decoration: underline; }
+
+  a:link    { color: navy; }
+  a:visited { color: black; }
+  a:active  { color: red; }
+  a:hover   { color: blue; }
+  
+  img { border: none; }
+
+  table.layout { width: 100%; border: 0px solid black; }
+  table.layout tr { border: 0px solid black; vertical-align: top; }
+  table.layout tr.layout#content { border: 0px solid black; vertical-align: top; }
+  table.layout tr.layout#content td { width: 75%; vertical-align: top; }
+  table.layout tr.layout#content td#sidebar { width: 25%; padding: 0px; vertical-align: top; }
+
+  /*table.layout tr td#footer div.layout#footer*/
+  
+/**********************************************************************************************
+  Site caption
+**********************************************************************************************/
+  div.layout#caption
+  {
+    background-image: url( "caption0.html" );
+    background-repeat: repeat-x;
+    background-position: center;
+  }
+  div.layout#caption table tr td#logo
+  {
+    width: 64px;
+    height: 64px;
+    background-image: url( "caption1.html" );
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  div.layout#caption table tr td#site-name
+  {
+    width: 150px;
+    vertical-align: top;
+    font-size: 11pt;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 5px;
+  }
+  div.layout#caption table tr td#site-name a
+  {
+    text-decoration: none;
+    color: black;
+  }
+  div.layout#caption td#title tr#top td
+  {
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+/*    padding-top: 1px;*/
+    padding-borrom: 2px;
+  }
+  div.layout#caption td#title tr#bottom td
+  {
+    font-size: 10pt;
+    font-weight: bold;
+/*    text-transform: uppercase;*/
+    letter-spacing: 1px;
+    padding-top: 1px;
+    padding-left: 150px;
+  }
+  div.layout#caption table tr td#title table tr#middle
+  {
+    font-size: 8pt;
+  }
+
+/**********************************************************************************************
+  Footer (document info)
+**********************************************************************************************/
+  div.layout#footer
+  {
+    background-color: #276595;
+    text-align: center;
+    font-size: 8pt;
+    color: white;
+  }
+  div.layout#footer a, 
+  div.layout#footer a:hover, 
+  div.layout#footer a:active, 
+  div.layout#footer a:visited
+  {
+    text-decoration: none;
+    color: white;
+  }
+  
+/**********************************************************************************************
+  Menu (navigation)
+**********************************************************************************************/
+  div.layout#menu
+  {
+    background-image: url( "pane0000.html" );
+    background-repeat: no-repeat;
+    background-position: top left;
+/*    padding: 6px 10px 4px 10px;*/
+    padding: 8px 0px 4px 0px;
+    margin-left: 5px;
+/*    margin-bottom: 10px;*/
+    background-color: #276595;
+    font-size: 8pt;
+    color: white;
+  }
+  div.layout#menu div.menu
+  {
+    color: white;
+    background-color: #276595;
+    border-top: 1px solid #276595;
+    border-bottom: 1px solid #276595;
+  }
+  div.layout#menu span.spacer#left { padding-left: 5px; }
+/*  
+  div.layout#menu div.menu#main
+  {
+    background-image: url( "/.images/appearance/menu.background.gif" );
+  }
+  div.layout#menu div.menu#main a.menu-item
+  {
+    background-image: url( "/.images/appearance/menu.background.gif" );
+  }
+*/  
+  div.layout#menu div.menu a  
+  {
+    font-size: 8pt; 
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 2px 4px 2px 4px;
+    border-top: 2px solid #4785C5;
+    border-left: 2px solid #4785C5;
+    border-right: 2px solid #4785C5
+  }
+  div.layout#menu div.menu#main a
+  {
+    color: #F0F0F0;
+  }
+  div.layout#menu div.menu a.menu-item-selected
+  {
+    border-bottom: 1px solid #4785C5;
+    color: white;
+/*    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;*/
+    background-color: #4785C5;
+  }
+  
+  div.layout#menu div.menu#main a.menu-item-selected
+  {
+    color: white;
+  }
+
+  div.layout#menu div.menu#main a.menu-item:hover
+/*  div.layout#menu div.menu#main a.menu-item-selected:hover*/
+  {
+    color: white;
+    text-decoration: underline;
+    background-color: #4785C5;
+    background-image: url( "menu0000.html" );
+  }
+  div.layout#menu div.menu#local a.menu-item:hover
+/*  div.layout#menu div.menu#local a.menu-item-selected:hover*/
+  {
+    text-decoration: underline;
+    background-color: #4785C5;
+    color: white;
+/*    background-image: url( "../.images/appearance/menu.highlighted.gif" );*/
+  }
+  div.layout#menu div.menu#local a.menu-item-selected:hover
+  {
+/*    text-decoration: underline;*/
+/*    background-color: #4785C5;*/
+/*    background-image: url( "../.images/appearance/menu.highlighted.gif" );*/
+  }
+
+  div.layout#menu div.menu#main
+  {
+    text-transform: uppercase; 
+  }
+
+  div.layout#menu div.menu#local
+  {
+    background-color: #4785C5;
+    padding: 2px 2px 2px 10px;
+    margin: 0px 5px 0px 5px;
+    line-height: 19px;
+    border-top: 1px solid #4785C5;
+  }
+  
+  div.layout#menu div.menu#local a.menu-item
+  {
+    font-weight: lighter;
+  }
+
+  div.layout#menu div.menu#xrefs
+  {
+    background-color: #4785C5;
+    padding: 2px 2px 2px 10px;
+    margin: 0px 5px 0px 5px;
+    line-height: 19px;
+/*    border-top: 1px solid #4785C5;*/
+  }
+  div.layout#menu div.menu#xrefs-title
+  {
+    margin-left: 10px;
+/*    margin-top: 2px;*/
+/*    padding-left: 5px;*/
+    font-size: 8pt;
+/*    font-weight: bold;*/
+    color: white;/*   color: black;*/
+/*    font-style: italic;*/
+  }
+  div.layout#menu div.menu#xrefs-title span#see-also
+  {
+    padding: 2px 10px 2px 10px;
+    border-top: 1px solid #276595;
+    border-bottom: 1px solid #4785C5;
+    background-color: #4785C5;
+  }
+  div.layout#menu div.menu#xrefs a.menu-item
+  {
+    font-weight: lighter;
+  }
+  div.layout#menu div.menu#xrefs a.menu-item:hover
+  {
+    text-decoration: underline;
+    background-color: #4785C5;
+/*    background-image: url( "../.images/appearance/menu.highlighted.gif" );*/
+  }
+
+/**********************************************************************************************
+  Sidebar
+**********************************************************************************************/ 
+  div.layout#sidebar 
+  {
+    margin-top: 5px;
+  }
+  
+  div.layout#sidebar div.pane
+  {
+    background: #eaedef;
+    padding: 0px;
+    margin-bottom: 8px;
+  }
+  div.layout#sidebar div.pane div.title
+  {
+    padding: 4px; 
+    padding-left: 10px;
+    margin: 0px;
+    background-image: url( "pane0000.html" );
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: #326f9e;
+    text-transform: uppercase; 
+    text-align: center;
+    font-size: 8pt;
+    font-weight: bold;
+    color: white;
+  }
+  div.layout#sidebar div.pane div.content
+  {
+    border-left: 1px solid #326f9e;
+    border-bottom: 1px solid #326f9e;
+    border-right: 1px solid #326f9e;
+    padding: 4px;
+    text-indent: 10px;
+    font-size: 8pt;
+    text-align: justify;
+  }
+  div.layout#sidebar div.pane div.content ul
+  {
+    padding-left: 0px;
+  }
+  div.layout#sidebar div.pane div.content div.event
+  {
+    padding: 2px 0px 2px 0px;
+  }
+  div.layout#sidebar div.pane#contacts div.content
+  {
+    text-align: left;
+  }
+
+
+  div.layout#sidebar div.pane div.content div.event div.location,
+  div.layout#sidebar div.pane div.content div.event div.action
+  {
+    padding: 2px 0px 2px 10px;
+    text-indent: 10px;
+  }
+  
+  div.layout#sidebar div.pane#xref div.content
+  {
+    padding: 5px;
+    text-align: left;
+    text-indent: 0px;
+  }
+  div.layout#sidebar div.pane div.section-reference
+  {
+    border-left: 1px solid #326f9e;
+    border-bottom: 1px solid #326f9e;
+    border-right: 1px solid #326f9e;
+    font-size: 7pt;
+    padding: 0px 4px 2px 4px;
+    text-align: right;
+    text-transform: lowercase;
+  }
+/*  div.layout#sidebar div.pane div.section-reference a { color: navy; }*/
+  
+/*
+  Citations
+*/  
+  div.citation div.citation-author, div.citation div.citation-source
+  {
+    font-style: italic;
+    text-align: left;
+  }
+
+/*
+  Banners
+*/
+div.pane div.friendly-reference
+{
+  text-align: center;
+  text-indent: 0px;
+  padding: 5px 10px 5px 10px;
+}
+div.pane div.friendly-reference div.description
+{
+  padding: 2px;
+}
+
+/*
+  Document
+*/
+  div.document
+  {
+    font-size: 12px;
+    font-family: Verdana;
+/*    letter-spacing: 1px;*/
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    color: black;
+    margin-left: 30px;
+    margin-right: 20px;
+/*    vertical-align: top;*/
+/*    background-color: #FAFAD7;*/
+  }
+  div.divider
+  {
+    text-align: center;
+    border-top: 1px solid black;
+  }
+  div.document div.title
+  {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+  }
+  
+  div.document div.data-source
+  {
+    font-style: italic;
+    text-align: right;
+  }
+
+  div.document div.subtitle
+  {
+    font-size: 14px;
+    font-style: italic;
+/*    font-weight: bold;*/
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+  }
+
+  div.document div.section
+  {
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* 10px 10px 10px 10px;*/
+  }
+  div.document div.section div.section-title
+  {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    /* 10px 10px 10px 10px;*/
+  }
+  div.document div.toc div.toc-title
+  {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* 10px 10px 10px 10px;*/
+  }
+  div.document div.paragraph, div.document div.monologue, div.document div.dialogue
+  {
+    text-indent: 20px;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+  }
+  div.document div.dialogue div.speaker, div.document div.monologue div.speaker
+  {
+    font-variant: small-caps;
+    font-weight: bold;
+  }
+  div.document div.dialogue div.description, div.document div.monologue div.description
+  {
+    font-style: italic;
+  }
+  div.document div.note
+  {
+    font-style: italic;   
+    border: 1px solid white;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    font-weight: normal;
+  }
+  div.document div.signature
+  {
+    margin-top: 20px;
+    text-align: right;
+    font-style: italic;
+  }
+  div.document div.author
+  {
+    font-style: italic;   
+    text-align: right;
+  }
+  div.document div.author-centered
+  {
+    font-style: italic;   
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  div.document div.editor-note
+  {
+    background-color: #EEEEEE;
+    color: navy;
+    margin: 5px 0px 5px 15px;
+    padding: 5px 10px 5px 10px;
+    font-weight: normal;
+    border: 1px solid grey;
+/*    border-left: 1px solid grey;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;*/
+  }
+  
+  div.document div.editor-resume, div.document div.editor-prolog
+  {
+    background-color: #EEEEEE;
+    color: navy;
+    border: 1px solid grey;
+/*    border-left: 1px solid grey;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;*/
+    margin: 5px 0px 5px 0px;
+    padding: 10px 10px 10px 10px;
+    font-weight: normal;
+  }
+  
+  div.document div.editor-resume div.resume-title
+  {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+/*
+  Auxilary
+*/
+  em.super { font-variant: small-caps; font-weight: bold; font-style: normal; }
+  em.superior { text-transform: uppercase; font-style: normal; font-weight: bold; }
+  div.slogan 
+  { 
+    font-variant: small-caps; 
+    font-size: 150%; 
+    font-weight: bold; 
+    text-align: center; 
+    letter-spacing: 1px;
+  }
+  span.term { font-weight: bold; }
+  ul, ol
+  {
+  /*  list-style-position:outside;*/
+    text-indent: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+  ul.contacts
+  {
+  /*  list-style-position:outside;*/
+    text-indent: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+  ul.references li
+  {
+    margin-bottom: 5px;
+  }
+  
+  div.error
+  {
+    color: red;
+    font-size: 12pt;
+    text-align: center;
+    vertical-align: top;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: 50px 20px 50px 20px;
+/*    text-transform: uppercase;*/
+  }
+  
+  div.unavailable-document
+  {
+    color: black;
+    font-size: 10pt;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+/*    text-transform: uppercase;*/
+  }
+  
+  div.service-panel
+  {
+    margin: 5px;
+    padding: 3px 5px 3px 5px;
+/*    background-color: silver;*/
+    text-transform: lowercase; 
+/*    border: 1px solid black;*/
+/*    text-align: left;*/
+    font-size: 8pt;
+    color: black;
+    background: #eaedef;
+    border: 1px solid #326f9e;
+  }
+  div.service-panel span#print
+  {
+    padding: 5px 20px 5px 20px;
+    background-image: url( "printer2.html" );
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  div.service-panel span#discuss
+  {
+    margin-left: 20px;
+    padding: 5px 20px 5px 20px;
+    background-image: url( "forum000.html" );
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  div.document-info
+  {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+/*    text-align: center;*/
+  }
+  td#document-info
+  {
+//    width: 75%;
+  }
+  td#document-info-spacer
+  {
+    width: 90px;
+  }
+  td#spylog
+  {
+//    width: 25%;
+    width: 90px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  div.original-url, div.modification-date, div.hosted-by
+  {
+    padding: 2px 0px 2px 0px;
+    font-size: 8pt;
+    text-align: center;
+  }
+  
+  div.document div.inline-document
+  {
+    border: 1px solid black;
+    padding: 40px 40px 30px 40px;
+    margin: 20px 40px 20px 40px;
+  }
+
+  div.document div.events
+  {
+    padding: 4px;
+    text-indent: 10px;
+/*    font-size: 8pt;*/
+    text-align: justify;
+  }
+  div.document div.events div.event
+  {
+    padding: 2px 0px 5px 0px;
+  }
+  
+  div.document div.events div.event span.mark
+  {
+    font-variant: small-caps;
+    font-size: 10px;
+    border: 2px solid red;
+    font-weight: bold;
+    color: red;
+  }
+  
+  div.document div.events div.event div.date
+  {
+    font-weight: bold;
+  }
+
+  div.document div.events div.event div.location,
+  div.document div.events div.event div.action,
+  div.document div.events div.event div.details
+  {
+    padding: 2px 0px 2px 10px;
+    text-indent: 10px;
+  }
+  
+  form
+  {
+    margin-bottom: 0px;
+  }
+  
+  table.data
+  {
+    font-size: 10px;
+    border-collapse: collapse;
+    border: 2px solid black;
+  }
+  
+  table.data tr.table-title
+  {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    border: 2px solid black;
+  }
+  table.data tr.section-title
+  {
+    font-weight: bold;
+    border-top: 2px solid black;
+  }
+  table.data td, table.data th
+  {
+    padding: 2px 5px 2px 5px;
+    border: 1px solid black;
+  }
+  table.data td.row-title{width: 95%;}
+  table.data td.row-data{width: 5%;}
+  table.data td.tabbed
+  {
+    padding-left: 50px;
+  }
+  table.data tr.odd, table.data tr.odd td.odd
+  {
+    background-color: #FFFFDD;
+  }
+  table.data tr.odd td.even, table.data tr.odd th
+  {
+    background-color: #EEEEDD;
+  }
+  table.data tr.even, table.data tr.even td.odd
+  {
+    background-color: #DDFFFF;
+  }
+  table.data tr.even td.even, table.data tr.even th
+  {
+    background-color: #DDEEEE;
+  }
+  
+  div.document table.data div.notes div.note
+  {
+    font-style: normal;
+    border: none;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+    font-weight: normal;
+  }
+ 
+  span.reform{color: red; text-decoration: underline;}
+  span.red{color: red;}
+  span.blue{color: blue;}
+
+  div.document div.section div.subsection div.subsection-title
+  {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+  
+  div.document div.section div.subsection div.subsection-subtitle
+  {
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+  
+  div.toc-element div.toc-element
+  {
+    padding-left: 20px;
+  }

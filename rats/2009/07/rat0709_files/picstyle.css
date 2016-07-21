@@ -1,0 +1,42 @@
+.picstyle {
+	background-color:#8C8C9D;
+	background-image: url("bg_gray.gif");
+}
+
+table.picstyle td {
+	vertical-align:bottom;
+	text-align:center;
+	background-color:#D7D7DD;
+	padding-bottom:5;
+	border-top: 1px solid #3E3E3E;
+	border-left: 1px solid #3E3E3E;
+	border-right: 1px solid #EFEFEF;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+span.imgtext {
+	text-align:center;
+	font-size:150%;
+	font-weight:bold;
+}
+
+body {
+	background-color:#CACACA;
+	background-image: url("canvas.jpg");
+}
+
+h1 {
+	text-align:center;
+	color:#330066;
+	padding-bottom:16px;
+}
+
+.thumbnail {
+	text-align:center;
+	padding-bottom:6px;
+	margin-bottom:10px;
+}
+
+td.spiral {
+	background-image: url("spiral.gif");
+}

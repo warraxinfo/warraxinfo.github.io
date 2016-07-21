@@ -1,0 +1,29 @@
+body {background-color:black; margin:0; padding:0;
+scrollbar-base-color:#000000;
+scrollbar-3dlight-color:Black;
+scrollbar-arrow-color:#A9A9A9;
+scrollbar-base-color:Black;
+scrollbar-darkshadow-color:#292929;
+scrollbar-face-color:#343434;
+scrollbar-highlight-color:Gray;
+scrollbar-track-color:Black}
+.pict {font-size:10pt; text-align:center}
+.common {background-color:rgb(245,245,245)}
+P {text-align:justify; text-indent:10pt; margin-top:0px; margin-bottom:0px}
+.txt {font-size:13pt; color:#dddddd; font-family:Arial, Helvetica, sans-serif; text-align:justify; margin-top:0px; margin-bottom:0px}
+.poetry {font-size:13pt; color:#dddddd; font-family:Arial, Helvetica, sans-serif; text-align:justify; margin-top:0px; margin-bottom:0px; margin-left:30pt}
+BLOCKQUOTE {margin-top:0; margin-bottom:0; margin-left: 5em; margin-right:3em;  border-left: thin solid;  padding-left: 1%;  }
+BLOCKQUOTE P {text-indent:13pt}
+h1 {font-size:24pt; color:#000000; font-family:Arial, Helvetica, sans-serif}
+h2 {font-size:18pt; color:#000000; font-family:Arial, Helvetica, sans-serif}
+.autor {font-size:18pt; color:#000000; font-family:Arial, Helvetica, sans-serif}
+.pn {font-size:24px; text-align:right; vertical-align:middle; color:#C0C0C0}
+.nb {font-size:18pt; text-align:center; color:#E91212; font-family:Arial, Helvetica, sans-serif; font-weight:bold}
+A {text-decoration:none; color:#c0c0c0}
+A:active {color:#c0c0c0; text-decoration:none}
+A:visited {color:#c0c0c0; text-decoration:none}
+A:hover {color:#ffffff; text-decoration:underline}
+A:hover.footnote {color:blue; text-decoration:underline}
+DIV.main {margin-left:5%; margin-right:5%}
+li {text-align:justify}
+A.footnote {vertical-align:top; font-size:80%; color:#000000; text-decoration:none}
