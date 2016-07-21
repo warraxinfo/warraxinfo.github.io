@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="Windows-1251"?>
 
 <!--
-     Сделано [относительно] стандарта ГОСТ 7.0.5-2008
-     (с) Warrax, ферваль 2012 e.v.
-     Необходимые пояснения см. здесь:
+     РЎРґРµР»Р°РЅРѕ [РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ] СЃС‚Р°РЅРґР°СЂС‚Р° Р“РћРЎРў 7.0.5-2008
+     (СЃ) Warrax, С„РµСЂРІР°Р»СЊ 2012 e.v.
+     РќРµРѕР±С…РѕРґРёРјС‹Рµ РїРѕСЏСЃРЅРµРЅРёСЏ СЃРј. Р·РґРµСЃСЊ:
      http://warrax.net/
 
-     на основе работы Ивана МеЛа:
+     РЅР° РѕСЃРЅРѕРІРµ СЂР°Р±РѕС‚С‹ РРІР°РЅР° РњРµР›Р°:
      http://delphi.ucoz.org/publ/wordxslgost/4-1-0-87
 
-     самый первый шаблон, использованный для адаптации:
+     СЃР°РјС‹Р№ РїРµСЂРІС‹Р№ С€Р°Р±Р»РѕРЅ, РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅС‹Р№ РґР»СЏ Р°РґР°РїС‚Р°С†РёРё:
      Stylesheet for Microsoft Word 2007/2008/2010 Bibliography formatting.
      Author(s): Yves Dhondt (yves.dhondt@gmail.com)
      Copyright: Copyright (c) 2009 Yves Dhondt
@@ -218,36 +218,36 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-           <!-- Страна как флаг: ставить "/", когда требуется!-->
-          <format>{%RefOrder%. }{%Author:1% }{&lt;i&gt;%Title%&lt;/i&gt;}{: %ShortTitle%}{: в %NumberVolumes% тт.}{, Том %Volume%}{; %Edition:%}{ %CountryRegion%}{ под ред. %Editor:2%} {пер. %Translator:1%} — {%City|"s.l."%: }{%Publisher|" s.n."%}{, %Year% }{. — %Pages% c.}{ (%Comments%)}.</format>
+           <!-- РЎС‚СЂР°РЅР° РєР°Рє С„Р»Р°Рі: СЃС‚Р°РІРёС‚СЊ "/", РєРѕРіРґР° С‚СЂРµР±СѓРµС‚СЃСЏ!-->
+          <format>{%RefOrder%. }{%Author:1% }{&lt;i&gt;%Title%&lt;/i&gt;}{: %ShortTitle%}{: РІ %NumberVolumes% С‚С‚.}{, РўРѕРј %Volume%}{; %Edition:%}{ %CountryRegion%}{ РїРѕРґ СЂРµРґ. %Editor:2%} {РїРµСЂ. %Translator:1%} вЂ” {%City|"s.l."%: }{%Publisher|" s.n."%}{, %Year% }{. вЂ” %Pages% c.}{ (%Comments%)}.</format>
         </column>
       </source>
       <source type="BookSection">
         <column id="1">
           <halign>center</halign>
           <valign>top</valign>
-          <format>{%RefOrder%. }{%Author:1% }{&lt;i&gt;%Title%&lt;/i&gt;}{ / пер. %Translator:1%} // {%BookAuthor:1% }{&lt;i&gt;%BookTitle%&lt;/i&gt;} {: %ShortTitle%}{ / под ред. %Editor:2%}{: в %NumberVolumes% тт.}{, Том %Volume%}{; %Edition:%} — {%City|"s.l."%: }{%Publisher|" s.n."%}{, %Year% }{. — c. %Pages%}{ (%Comments%)}.</format>
+          <format>{%RefOrder%. }{%Author:1% }{&lt;i&gt;%Title%&lt;/i&gt;}{ / РїРµСЂ. %Translator:1%} // {%BookAuthor:1% }{&lt;i&gt;%BookTitle%&lt;/i&gt;} {: %ShortTitle%}{ / РїРѕРґ СЂРµРґ. %Editor:2%}{: РІ %NumberVolumes% С‚С‚.}{, РўРѕРј %Volume%}{; %Edition:%} вЂ” {%City|"s.l."%: }{%Publisher|" s.n."%}{, %Year% }{. вЂ” c. %Pages%}{ (%Comments%)}.</format>
         </column>
       </source>
       <source type="JournalArticle">
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%RefOrder%. }{%Author:1% }{&lt;i&gt;%Title%&lt;/i&gt;}{ / пер. %Translator:1%} // { %JournalName%}. {— №%Volume%.{, Выпуск %Issue%.}}{ — { %Month:s%} %Year%}{ . — c. %Pages%}{ (%Comments%)}.</format>
+          <format>{%RefOrder%. }{%Author:1% }{&lt;i&gt;%Title%&lt;/i&gt;}{ / РїРµСЂ. %Translator:1%} // { %JournalName%}. {вЂ” в„–%Volume%.{, Р’С‹РїСѓСЃРє %Issue%.}}{ вЂ” { %Month:s%} %Year%}{ . вЂ” c. %Pages%}{ (%Comments%)}.</format>
         </column>
       </source>
       <source type="ArticleInAPeriodical">
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%RefOrder%. }{%Author:1% }{&lt;i&gt;%Title%&lt;/i&gt;}{ / пер. %Translator:1%} // {%PeriodicalTitle%}.{ — №%Volume%,}{ — Выпуск %Issue%.}{ — { %Month:s%} %Year%}{ . — c. %Pages%}{ (%Comments%)}.</format>
+          <format>{%RefOrder%. }{%Author:1% }{&lt;i&gt;%Title%&lt;/i&gt;}{ / РїРµСЂ. %Translator:1%} // {%PeriodicalTitle%}.{ вЂ” в„–%Volume%,}{ вЂ” Р’С‹РїСѓСЃРє %Issue%.}{ вЂ” { %Month:s%} %Year%}{ . вЂ” c. %Pages%}{ (%Comments%)}.</format>
         </column>
       </source>
       <source type="ConferenceProceedings">
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%RefOrder%. }{%Author:1% }{%Title% // }{%ConferenceName%}{, Том %Volume%}{. — %City|StateProvince|CountryRegion%}{, %StateProvince|CountryRegion%}{, %CountryRegion%}{,{ %Month:s%} %Year%}{ . — c. %Pages%}.</format>
+          <format>{%RefOrder%. }{%Author:1% }{%Title% // }{%ConferenceName%}{, РўРѕРј %Volume%}{. вЂ” %City|StateProvince|CountryRegion%}{, %StateProvince|CountryRegion%}{, %CountryRegion%}{,{ %Month:s%} %Year%}{ . вЂ” c. %Pages%}.</format>
         </column>
       </source>
       <source type="Report">
@@ -261,21 +261,21 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%RefOrder%. }{%Author:1%.}{ %Title% //}{ [%InternetSiteTitle|"сайт"%]}{ URL: %URL:0%}{ (дата обращения: %DayAccessed%/%MonthAccessed%/%YearAccessed%)}{ (%Comments%)}.</format>
+          <format>{%RefOrder%. }{%Author:1%.}{ %Title% //}{ [%InternetSiteTitle|"СЃР°Р№С‚"%]}{ URL: %URL:0%}{ (РґР°С‚Р° РѕР±СЂР°С‰РµРЅРёСЏ: %DayAccessed%/%MonthAccessed%/%YearAccessed%)}{ (%Comments%)}.</format>
         </column>
       </source>
       <source type="DocumentFromInternetSite">
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-           <format>{%RefOrder%. }{%Author:1%.}{ %Title% //}{ [%InternetSiteTitle|"сайт"%]}{ URL: %URL:0%}{ (дата обращения: %DayAccessed%/%MonthAccessed%/%YearAccessed%)}{ (%Comments%)}.</format>
+           <format>{%RefOrder%. }{%Author:1%.}{ %Title% //}{ [%InternetSiteTitle|"СЃР°Р№С‚"%]}{ URL: %URL:0%}{ (РґР°С‚Р° РѕР±СЂР°С‰РµРЅРёСЏ: %DayAccessed%/%MonthAccessed%/%YearAccessed%)}{ (%Comments%)}.</format>
         </column>
       </source>
       <source type="ElectronicSource">
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%RefOrder%. }{%Author:1%.}{ %Title% //}{ %PublicationTitle% }[Электронный ресурс]{: %Medium%}{— %Publisher%}{ (%Comments%)}. </format>
+          <format>{%RefOrder%. }{%Author:1%.}{ %Title% //}{ %PublicationTitle% }[Р­Р»РµРєС‚СЂРѕРЅРЅС‹Р№ СЂРµСЃСѓСЂСЃ]{: %Medium%}{вЂ” %Publisher%}{ (%Comments%)}. </format>
         </column>
       </source>
       <source type="Patent">
@@ -310,14 +310,14 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%RefOrder%. }{«%Title%» [фильм]}{, реж.: %Director:1% }{/ сцен.: %Writer%} {— {%CountryRegion%,} %Year%}{ (%Comments%)}.</format>
+          <format>{%RefOrder%. }{В«%Title%В» [С„РёР»СЊРј]}{, СЂРµР¶.: %Director:1% }{/ СЃС†РµРЅ.: %Writer%} {вЂ” {%CountryRegion%,} %Year%}{ (%Comments%)}.</format>
         </column>
       </source>
       <source type="SoundRecording">
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%RefOrder%. }{%Performer%, }{&lt;i&gt;«%Title%»&lt;/i&gt; [муз.]}{ // «%AlbumTitle%»}{, %Year%}{ (%Comments%)}.</format>
+          <format>{%RefOrder%. }{%Performer%, }{&lt;i&gt;В«%Title%В»&lt;/i&gt; [РјСѓР·.]}{ // В«%AlbumTitle%В»}{, %Year%}{ (%Comments%)}.</format>
         </column>
       </source>
     </bibliography>
@@ -333,7 +333,7 @@
         <separator_before_last/>
         <max_number_of_persons_to_display>7</max_number_of_persons_to_display>
         <number_of_persons_to_display_if_more_than_max>3</number_of_persons_to_display_if_more_than_max>
-        <overflow> и др.</overflow>
+        <overflow> Рё РґСЂ.</overflow>
         <single_suffix/>
         <multi_suffix/>
       </list>
@@ -349,7 +349,7 @@
         <separator_before_last>, </separator_before_last>
         <max_number_of_persons_to_display>3</max_number_of_persons_to_display>
         <number_of_persons_to_display_if_more_than_max>1</number_of_persons_to_display_if_more_than_max>
-        <overflow> и др.</overflow>
+        <overflow> Рё РґСЂ.</overflow>
         <single_suffix/>
         <multi_suffix/>
       </list>
@@ -364,7 +364,7 @@
         <separator_before_last>, </separator_before_last>
         <max_number_of_persons_to_display>3</max_number_of_persons_to_display>
         <number_of_persons_to_display_if_more_than_max>1</number_of_persons_to_display_if_more_than_max>
-        <overflow> и др.</overflow>
+        <overflow> Рё РґСЂ.</overflow>
         <single_suffix/>
         <multi_suffix/>
       </list>
@@ -379,7 +379,7 @@
         <separator_before_last>, </separator_before_last>
         <max_number_of_persons_to_display>3</max_number_of_persons_to_display>
         <number_of_persons_to_display_if_more_than_max>1</number_of_persons_to_display_if_more_than_max>
-        <overflow> и др.</overflow>
+        <overflow> Рё РґСЂ.</overflow>
         <single_suffix/>
         <multi_suffix/>
       </list>
@@ -394,7 +394,7 @@
         <separator_before_last>, </separator_before_last>
         <max_number_of_persons_to_display>7</max_number_of_persons_to_display>
         <number_of_persons_to_display_if_more_than_max>7</number_of_persons_to_display_if_more_than_max>
-        <overflow> и др.</overflow>
+        <overflow> Рё РґСЂ.</overflow>
         <single_suffix/>
         <multi_suffix/>
       </list>
@@ -409,7 +409,7 @@
         <separator_before_last>, </separator_before_last>
         <max_number_of_persons_to_display>7</max_number_of_persons_to_display>
         <number_of_persons_to_display_if_more_than_max>7</number_of_persons_to_display_if_more_than_max>
-        <overflow> и др.</overflow>
+        <overflow> Рё РґСЂ.</overflow>
         <single_suffix/>
         <multi_suffix/>
       </list>
@@ -446,18 +446,18 @@
     </namelists>
     <strings>
       <months>
-        <month number="1">янв.</month>
-        <month number="2">фев.</month>
-        <month number="3">март</month>
-        <month number="4">апр.</month>
-        <month number="5">май</month>
-        <month number="6">июнь</month>
-        <month number="7">июль</month>
-        <month number="8">авг.</month>
-        <month number="9">сент.</month>
-        <month number="10">окт.</month>
-        <month number="11">ноя.</month>
-        <month number="12">дек.</month>
+        <month number="1">СЏРЅРІ.</month>
+        <month number="2">С„РµРІ.</month>
+        <month number="3">РјР°СЂС‚</month>
+        <month number="4">Р°РїСЂ.</month>
+        <month number="5">РјР°Р№</month>
+        <month number="6">РёСЋРЅСЊ</month>
+        <month number="7">РёСЋР»СЊ</month>
+        <month number="8">Р°РІРі.</month>
+        <month number="9">СЃРµРЅС‚.</month>
+        <month number="10">РѕРєС‚.</month>
+        <month number="11">РЅРѕСЏ.</month>
+        <month number="12">РґРµРє.</month>
       </months>
     </strings>
   </xsl:variable>
@@ -472,7 +472,7 @@
       <!-- Gets the name of the style as it will be displayed in Word 2007. -->
       <xsl:when test="b:StyleName">
        <!-- <xsl:value-of select="msxsl:node-set($data)/general/stylename"/>-->
-       <xsl:text>Warrax ГОСТ</xsl:text>
+       <xsl:text>Warrax Р“РћРЎРў</xsl:text>
       </xsl:when>
 
       <!-- Gets the version information for the style. -->

@@ -1,7 +1,7 @@
 //
 // Cross-browser floating footnotes
 //
-// (Ò) blizzard@riscom.com, 2003
+// (—Å) blizzard@riscom.com, 2003
 //
 // version: 1.0000
 //
@@ -106,7 +106,7 @@ function FootnotesEngine_Init ()
                                         (
                                                 "<div id=\"footnote" + link.hash.substr(1) + "\" class=\"footnotes\">" +
                                                 "<a class=\"control\" href=\"\">" +
-                                                "<img class=\"control\" src=\"../close2.gif\" onmouseover=\"this.src='../close3.gif'\" onmouseout=\"this.src='../close2.gif'\" alt=\"x\" width=\"14\" height=\"13\" title=\"Õ‡ÊÏËÚÂ Ò˛‰‡ ËÎË Ì‡ ÒÒ˚ÎÍÛ, ˜ÚÓ·˚ Á‡Í˚Ú¸ ÓÍÌÓ\" border=\"0\" hspace=\"0\">" +
+                                                "<img class=\"control\" src=\"../close2.gif\" onmouseover=\"this.src='../close3.gif'\" onmouseout=\"this.src='../close2.gif'\" alt=\"x\" width=\"14\" height=\"13\" title=\"–ù–∞–∂–º–∏—Ç–µ —Å—é–¥–∞ –∏–ª–∏ –Ω–∞ —Å—Å—ã–ª–∫—É, —á—Ç–æ–±—ã –∑–∞–∫—Ä—ã—Ç—å –æ–∫–Ω–æ\" border=\"0\" hspace=\"0\">" +
                                                 "</a>" +
                                                 "<div class=\"innerBox\">" +
                                                 element.innerHTML +
