@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1251"?>
+﻿<?xml version="1.0" encoding="Windows-1251"?>
 
 <!--
      Сделано [относительно] стандарта ГОСТ 7.0.5-2008

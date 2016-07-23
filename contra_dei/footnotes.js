@@ -1,4 +1,4 @@
-//
+﻿//
 // Cross-browser floating footnotes
 //
 // (с) blizzard@riscom.com, 2003
