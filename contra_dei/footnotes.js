@@ -82,8 +82,8 @@ function FootnotesEngine_Init ()
                 return;
 
         var img = new Image();
-        img.src = "close2.html";
-        img.src = "close3.html";
+        img.src = "close2.gif";
+        img.src = "close3.gif";
 
         document.write("<style type=\"text/css\">");
         document.write("@import url(\"../footnotes.css\");");
