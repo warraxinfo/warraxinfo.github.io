@@ -3,13 +3,10 @@
         .novell {margin-top:0px; margin-bottom:0px}
 		.novell-center {margin-top:0px; margin-bottom:0px; text-align: center}
         .poetry {text-indent:0pt; margin-left:30pt}
-        .w {
-	color: #AB00DF;
-	font-style: italic;
-	text-align: justify;
-}
+        .w {color:#AB00DF; font-style:italic; text-align:justify}
         .w I {letter-spacing:2px}
         .w em {letter-spacing:2px}
+		.w-novell {color:#AB00DF; font-style:italic; text-align:justify; margin-top:0px; margin-bottom:0px}
         .o {color:GREEN; font-style:italic}
         .o I {letter-spacing:2px}
         .o em {letter-spacing:2px}
